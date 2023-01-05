@@ -8,6 +8,8 @@
 /*instagram starter*/
 .instasection {
     padding: 0;
+    margin: 0 40px;
+    
     .instagram-account {
         background-image: url(../img/black-texture.jpg);
         background-size: cover;
@@ -16,6 +18,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        margin: 0 40px;
+
         /*instagram tekst begynder*/
         .insta-left{
             align-self: center;
