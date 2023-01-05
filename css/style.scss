@@ -1,0 +1,100 @@
+@use "colors" as *;
+@use "typography" as *;
+
+* {
+    box-sizing: border-box;
+}
+
+/*instagram starter*/
+.instasection {
+    padding: 0;
+    .instagram-account {
+        background-image: url(../img/black-texture.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /*instagram tekst begynder*/
+        .insta-left{
+            align-self: center;
+            display: inline;
+            box-sizing: border-box;
+            justify-content: center;
+            h1 {
+                font-family: 'Mocha Mattari';
+                color: $fourth-color;
+                font-size: 80px;
+                text-align: center;
+                margin-top: 80px;
+                margin-bottom: 16px;
+            }
+            p {
+                color: $fifth-color;
+                font-family: 'Tox Typewriter', sans-serif;
+                font-size: 24px;
+                text-align: center;
+            }
+            .instagram-button {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                transition: 0.3s;
+                margin-top: 70px;
+                a {
+                    font-family: 'DIN Next Slab', sans-serif;
+                    color: $fourth-color;
+                    padding: 15px 50px;
+                    border-radius: 8px;
+                    font-size: 16px;
+                    transition: 0.3s;
+                    background-color: $primary-color;
+                }
+                a:hover {
+                    border: 1px solid $fourth-color;
+                }
+            }
+        }
+        /*instagram tekst ender*/
+    
+    
+        /*images fra instagram begynder*/
+        .instagram-images {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            justify-content: center;
+            .instagram-images-1 {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: left center;
+                img {
+                    max-width: 350px;
+                    border-radius: 20px;
+                }
+            }
+            .instagram-images-2 {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: left center;
+                img {
+                    max-width: 350px;
+                    border-radius: 20px;
+                }
+            }
+            .instagram-images-3 {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: left center;
+                img {
+                    max-width: 350px;
+                    border-radius: 20px;
+                }
+            }
+        }
+        /*images fra instagram ender*/
+    }
+}
+
+/*instagram ender*/
