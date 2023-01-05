@@ -102,3 +102,172 @@
 }
 
 /*instagram ender*/
+
+
+
+@media only screen and (max-width: 1500px) {
+    .instagram-account {
+        .instagram-images {
+            display: flex;
+            align-items: center;
+            gap: 22px;
+            margin-top: 100px;
+            margin-right: 50px;
+            .instagram-images-1 {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: left center;
+                img {
+                    width: 300px;
+                }
+            }
+            .instagram-images-2 {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: left center;
+                img {
+                    width: 300px;
+                }
+            }
+            .instagram-images-3 {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: left center;
+                img {
+                    width: 300px;
+                }
+            }
+        }
+    }
+}  
+
+@media only screen and (max-width: 1400px) {
+    .instagram-account {
+        .insta-left {
+            display: inline;
+            h1 {
+                font-size: 80px;
+            }
+        }
+        .instagram-images {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            margin-top: 110px;
+            margin-right: 50px;
+            .instagram-images-1 {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: left center;
+                img {
+                    width: 300px;
+                }
+            }
+            .instagram-images-2 {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: left center;
+                img {
+                    width: 300px;
+                }
+            }
+            .instagram-images-3 {
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: left center;
+                img {
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1355px) {
+    .instagram-account {
+        .instagram-images {
+            margin-right: 20px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1282px) {
+    .instagram-account {
+        height: 70vh;
+        .insta-left{
+            h1 {
+                margin-top: 50px;
+            }
+            .instagram-button {
+                margin-top: 40px;
+            }
+        }
+        .instagram-images {
+            margin: 50px 10px;
+            gap: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+
+
+    .instagram-account {
+        .insta-left {
+            h1 {
+                margin-top: 0;
+            }
+        }
+        height: 50vh;
+        .instagram-images-1 {
+            margin-top: 80px;
+        }
+        .instagram-images-2 {
+            display: none;
+        }
+    
+        .instagram-images-3 {
+            display: none;
+        }
+    }
+}
+
+
+
+@media only screen and (max-width: 950px) {
+    .instagram-images-1 {
+        width: 400px;
+    }
+}
+
+
+@media only screen and (max-width: 850px) {
+    .instagram-account {
+        .instagram-images {
+            margin-right: 0px;
+            padding-left: 0px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 736px) {
+    .instagram-account {
+        height: 70vh;
+        .insta-left {
+            h1 {
+                margin-top: 50px;
+            }
+        }
+        .instagram-images {
+            margin-top: 0px;
+            margin-right: 0px;
+            padding-left: 90px;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
