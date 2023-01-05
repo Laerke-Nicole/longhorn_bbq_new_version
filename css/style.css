@@ -33,6 +33,7 @@ font-family: 'DIN Next Slab', sans-serif; - er for brødtekst og knapper
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 85px 10%;
   /*instagram tekst begynder*/
   /*instagram tekst ender*/
   /*images fra instagram begynder*/
@@ -49,7 +50,7 @@ font-family: 'DIN Next Slab', sans-serif; - er for brødtekst og knapper
   color: #f9f9f9;
   font-size: 80px;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 0px;
   margin-bottom: 16px;
 }
 .instasection .instagram-account .insta-left p {
@@ -63,7 +64,7 @@ font-family: 'DIN Next Slab', sans-serif; - er for brødtekst og knapper
   margin-left: auto;
   margin-right: auto;
   transition: 0.3s;
-  margin-top: 70px;
+  margin-top: 60px;
 }
 .instasection .instagram-account .insta-left .instagram-button a {
   font-family: "DIN Next Slab", sans-serif;
@@ -111,4 +112,55 @@ font-family: 'DIN Next Slab', sans-serif; - er for brødtekst og knapper
   border-radius: 20px;
 }
 
-/*instagram ender*//*# sourceMappingURL=style.css.map */
+/*instagram ender*/
+@media only screen and (max-width: 1773px) {
+  .instasection .instagram-account .instagram-images {
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+  }
+  .instasection .instagram-account .instagram-images .instagram-images-1 img {
+    width: 300px;
+  }
+  .instasection .instagram-account .instagram-images .instagram-images-2 img {
+    width: 300px;
+  }
+  .instasection .instagram-account .instagram-images .instagram-images-3 img {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 1599px) {
+  .insta-right {
+    margin-top: 60px;
+  }
+}
+@media only screen and (max-width: 1360px) {
+  .instagram-images {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 1052px) {
+  .instagram-account {
+    display: flex;
+    flex-direction: column;
+  }
+  .instagram-account .instagram-images {
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+  }
+  .instagram-account .instagram-images .instagram-images-1 img {
+    width: 350px;
+  }
+  .instagram-account .instagram-images .instagram-images-2 img {
+    width: 350px;
+  }
+  .instagram-account .instagram-images .instagram-images-3 img {
+    width: 350px;
+  }
+}
+@media only screen and (max-width: 1052px) {
+  .instagram-account {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
