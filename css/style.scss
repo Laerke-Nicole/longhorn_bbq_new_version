@@ -105,31 +105,14 @@
 
 
 @media only screen and (max-width: 1773px) {
-    .instasection{
-        .instagram-account {
-                .instagram-images {
-                    column-gap: 30px;
+    .instagram-images {
+        column-gap: 30px;
 
-                    .instagram-images-1 {
-                        img {
-                            width: 300px;
-                        }
-                    }
-                    .instagram-images-2 {
-                        img {
-                            width: 300px;
-                        }
-                    }
-                    .instagram-images-3 {
-                        img {
-                            width: 300px;
-                        }
-                    }
-                }
-            
+        img {
+            width: 300px;
         }
     } 
-} 
+}
 
 @media only screen and (max-width: 1599px) {
     .insta-right {
@@ -141,32 +124,10 @@
     .instagram-images {
         display: flex;
         flex-direction: column;
-    }
-}
+        width: 400px;
 
-@media only screen and (max-width: 1052px) {
-    .instagram-account  {
-        display: flex;
-        flex-direction: column;
-
-        .instagram-images {
-            column-gap: 30px;
-
-            .instagram-images-1 {
-                img {
-                    width: 350px;
-                }
-            }
-            .instagram-images-2 {
-                img {
-                    width: 350px;
-                }
-            }
-            .instagram-images-3 {
-                img {
-                    width: 350px;
-                }
-            }
+        img {
+            width: 400px;
         }
     }
 }
@@ -175,6 +136,21 @@
     .instagram-account  {
         display: flex;
         flex-direction: column;
+
+        .insta-right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .instagram-images {
+            column-gap: 30px;
+            
+            img {
+                width: 400px;
+            }
+        }
     }
 }
+
+
 

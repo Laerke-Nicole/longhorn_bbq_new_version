@@ -114,17 +114,11 @@ font-family: 'DIN Next Slab', sans-serif; - er for brødtekst og knapper
 
 /*instagram ender*/
 @media only screen and (max-width: 1773px) {
-  .instasection .instagram-account .instagram-images {
+  .instagram-images {
     -moz-column-gap: 30px;
          column-gap: 30px;
   }
-  .instasection .instagram-account .instagram-images .instagram-images-1 img {
-    width: 300px;
-  }
-  .instasection .instagram-account .instagram-images .instagram-images-2 img {
-    width: 300px;
-  }
-  .instasection .instagram-account .instagram-images .instagram-images-3 img {
+  .instagram-images img {
     width: 300px;
   }
 }
@@ -137,30 +131,27 @@ font-family: 'DIN Next Slab', sans-serif; - er for brødtekst og knapper
   .instagram-images {
     display: flex;
     flex-direction: column;
+    width: 400px;
+  }
+  .instagram-images img {
+    width: 400px;
   }
 }
 @media only screen and (max-width: 1052px) {
   .instagram-account {
     display: flex;
     flex-direction: column;
+  }
+  .instagram-account .insta-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .instagram-account .instagram-images {
     -moz-column-gap: 30px;
          column-gap: 30px;
   }
-  .instagram-account .instagram-images .instagram-images-1 img {
-    width: 350px;
-  }
-  .instagram-account .instagram-images .instagram-images-2 img {
-    width: 350px;
-  }
-  .instagram-account .instagram-images .instagram-images-3 img {
-    width: 350px;
-  }
-}
-@media only screen and (max-width: 1052px) {
-  .instagram-account {
-    display: flex;
-    flex-direction: column;
+  .instagram-account .instagram-images img {
+    width: 400px;
   }
 }/*# sourceMappingURL=style.css.map */
