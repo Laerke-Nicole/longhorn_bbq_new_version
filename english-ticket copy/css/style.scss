@@ -1,0 +1,105 @@
+
+@use "colors" as *;
+@use "typography" as *;
+
+/*subpage*/
+
+.background {
+  background-image: url(/img/red-pattern.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.entrance h1 {
+  font-family: 'mocha mattari';
+  font-size: 45px;
+  color: $secondary-color;
+  margin: 0;
+  display: none;
+}
+
+.row {
+  padding-top: 2cm;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    .col{
+      display: flex;
+      align-items: center; 
+      justify-content: center;
+      page {
+      display: flex;
+      flex-direction: column;
+      align-items:  center;
+      justify-content: flex-start;
+        .list {
+          display: flex;
+          flex-direction: column;
+          row-gap: 10px;
+          margin-top: 0;
+        }
+      }
+    }
+
+  button {
+    margin: 1cm 0;
+    padding: 5px 10px;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+  }
+}
+
+.sendemail {
+  margin: auto 1cm;
+  padding: 0;
+  .printtekst {
+    display: none;
+  }
+}
+
+page {
+  background: #f9f9f9;
+  display: block;
+  margin-bottom: 1cm auto;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+
+  img {
+      height: 300px; 
+      margin-top: 2cm;
+  }
+}
+
+page[size="A4"] {  
+  width: 21cm;
+  height: 29.7cm; 
+}
+page[size="A4"][layout="landscape"] {
+  width: 29.7cm;
+  height: 21cm;  
+}
+
+  
+  @media print {
+    body, page {
+      background: #ffffff;
+      margin: 0;
+      box-shadow: 0;
+      h1 {
+        display: none;
+      }
+      button {
+        display: none;
+      }
+      .entrance h1 {
+        font-family: 'mocha mattari';
+        font-size: 45px;
+        color: $secondary-color;
+        margin: 0;
+        display: block;
+      }
+    }
+  }

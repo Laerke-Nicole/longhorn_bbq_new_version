@@ -1,0 +1,1122 @@
+@charset "UTF-8";
+@import url("https://fonts.cdnfonts.com/css/tox-typewriter");
+@import url("https://fonts.cdnfonts.com/css/din-next-slab");
+/*hover og baggrundsfarver til fx knapper*/
+/*sort overskrift*/
+/*brød- og undertle overskrift*/
+/*hvid overskrift*/
+/*brød- og undertle overskrift på mørk baggrund*/
+/*brød- og undertle overskrift på lys baggrund*/
+/*@import url('//db.onlinewebfonts.com/c/c11f09354fd4806c55145d568617bf1a?family=Mocha+Mattari');*/
+@font-face {
+  font-family: "Mocha Mattari";
+  src: url(/css/Mocha\ Mattari\ W01\ Regular.ttf);
+}
+/*
+font-family: 'Mocha Mattari'; - er for overskrifter
+font-family: 'Tox Typewriter', sans-serif; - er for undertekst
+font-family: 'DIN Next Slab', sans-serif; - er for brødtekst og knapper
+*/
+.firstsection {
+  color: #f9f9f9;
+  /*to the right*/
+  /*to the left */
+}
+.firstsection .dates {
+  font-family: "DIN Next Slab", sans-serif;
+  font-size: 16px;
+  color: rgba(26, 26, 26, 0.7333333333);
+  margin-bottom: 5px;
+}
+.firstsection h1 {
+  font-family: "Mocha Mattari";
+  font-size: 65px;
+  margin-bottom: 50px;
+}
+.firstsection .underline {
+  font-family: "Tox Typewriter", sans-serif;
+  font-size: 20px;
+  color: #f9f9f9;
+  margin-bottom: 30px !important;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.firstsection .buttona {
+  text-decoration: none;
+  font-family: "DIN Next Slab", sans-serif;
+  color: #f9f9f9;
+  font-size: 16px;
+  margin: 0;
+  cursor: pointer;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 15px 25px;
+  border: none;
+}
+.firstsection .buttona:hover {
+  border: 1px solid #f9f9f9;
+}
+.firstsection .buttona:active {
+  border: 2px solid #f9f9f9;
+}
+.firstsection .lefth1 {
+  font-family: "Mocha Mattari";
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+}
+.firstsection .viharalt {
+  font-family: "DIN Next Slab", sans-serif;
+  font-size: 16px;
+  color: rgba(26, 26, 26, 0.537254902);
+  margin: 5px 40px;
+}
+.firstsection .vinderne {
+  font-family: "Tox Typewriter", sans-serif;
+  font-size: 16px;
+  color: #1a1a1a;
+  margin: 0;
+}
+@media only screen and (max-width: 990px) {
+  .firstsection .dates {
+    font-family: "DIN Next Slab", sans-serif;
+    font-size: 15px;
+    color: rgba(26, 26, 26, 0.537254902);
+    margin-bottom: 10px;
+  }
+  .firstsection h1 {
+    font-family: "Mocha Mattari";
+    font-size: 45px;
+    margin-bottom: 40px;
+  }
+  .firstsection .underline {
+    font-family: "Tox Typewriter", sans-serif;
+    font-size: 17px;
+    color: #f9f9f9;
+    margin-bottom: 15px;
+  }
+  .firstsection .lefth1 {
+    font-family: "Mocha Mattari";
+    font-size: 30px;
+    margin: 10px 0;
+    color: #1a1a1a;
+  }
+  .firstsection .viharalt {
+    font-family: "DIN Next Slab", sans-serif;
+    font-size: 12px;
+    color: rgba(26, 26, 26, 0.537254902);
+    margin: 5px 20px;
+  }
+  .firstsection .vinderne {
+    font-family: "Tox Typewriter", sans-serif;
+    font-size: 12px;
+    color: #1a1a1a;
+    margin: 0;
+  }
+}
+
+/*second section*/
+.secondsection h1 {
+  font-family: "Mocha Mattari";
+  font-size: 55px;
+  margin-bottom: 30px;
+  margin-top: 80px;
+  color: #1a1a1a;
+}
+.secondsection p {
+  font-family: "DIN Next Slab", sans-serif;
+  font-size: 18px;
+  color: #434343;
+  margin: 0;
+  margin-right: 15%;
+  margin-bottom: 50px;
+}
+
+/*third section*/
+.thirdsection {
+  padding: 0 10%;
+  /*underline*/
+}
+.thirdsection h1 {
+  font-family: "Mocha Mattari";
+  font-size: 55px;
+  padding: 0;
+  color: #f9f9f9;
+  text-align: center;
+}
+.thirdsection h2 {
+  font-family: "Mocha Mattari";
+  font-size: 24px;
+  padding: 0;
+  color: #f9f9f9;
+}
+.thirdsection h3 {
+  font-family: "Tox Typewriter", sans-serif;
+  font-size: 24px;
+  color: #bababa;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.thirdsection p {
+  font-family: "DIN Next Slab", sans-serif;
+  font-size: 18px;
+  color: #bababa;
+}
+@media only screen and (max-width: 1000px) {
+  .thirdsection h2 {
+    font-size: 18px;
+  }
+  .thirdsection p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 822px) {
+  .thirdsection h2 {
+    margin-top: 25px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*scrolle fra nav smooth*/
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--scroll-padding, 200px);
+}
+
+/*nav*/
+.navbar {
+  background-image: url(/img/black-texture.jpg);
+  min-height: 80px;
+  position: fixed;
+  padding: 0 10% !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transform: none;
+  display: flex;
+  /*added*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+  /*added*/
+}
+.navbar .logo img {
+  max-height: 90px;
+  margin: 10px 0;
+}
+.navbar .navbar-language {
+  color: #f9f9f9;
+  font-size: 20px;
+  font-family: "DIN Next Slab", sans-serif;
+}
+.navbar .navbar-language:hover {
+  color: #9F0C22;
+}
+.navbar .navbar-toggler {
+  background-color: #9F0C22;
+  box-shadow: none;
+}
+.navbar .offcanvas {
+  background-image: url(/img/white-texture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.navbar .offcanvas .hamburger-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.navbar .offcanvas .hamburger-logo img {
+  max-height: 200px;
+}
+.navbar .offcanvas .nav-item {
+  padding-left: 80px;
+}
+.navbar .offcanvas .nav-item a {
+  color: #434343;
+  padding: 16px 0;
+  font-family: "DIN Next Slab", sans-serif;
+  font-size: 18px;
+}
+.navbar .offcanvas .nav-item a:hover {
+  color: #9F0C22;
+}
+.navbar .offcanvas .nav-item #sponsor {
+  margin-bottom: 40px;
+}
+.navbar .offcanvas .nav-item .frivillig-button a {
+  background-color: #9F0C22;
+  padding: 15px 40px;
+  color: #f9f9f9 !important;
+  border-radius: 8px;
+  font-family: "DIN Next Slab", sans-serif;
+}
+.navbar .offcanvas .nav-item .frivillig-button a:hover {
+  border: 1px solid #1a1a1a;
+}
+.navbar .offcanvas .nav-item .frivillig {
+  background-color: #9F0C22;
+  padding: 15px 20px;
+  color: #f9f9f9 !important;
+  border-radius: 8px;
+  font-family: "DIN Next Slab", sans-serif;
+}
+.navbar .offcanvas .nav-item .frivillig-button :hover {
+  border: 1px solid #1a1a1a;
+}
+.navbar .offcanvas .offcanvas-header .btn-close:focus {
+  box-shadow: none;
+}
+
+/*frontpage*/
+.frontpage {
+  min-height: 95vh;
+  background-image: url(/img/hero-img-front-page.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding: 0 10% !important;
+}
+.frontpage .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.frontpage .text .fp1 {
+  font-family: "Mocha Mattari";
+  font-size: 120px;
+  color: #f9f9f9;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.frontpage .text .fp2 {
+  font-family: "Mocha Mattari";
+  font-size: 90px;
+  color: #f9f9f9;
+  margin-top: -30px;
+  margin-bottom: 50px;
+  z-index: 2;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.frontpage .text .fp3 {
+  font-family: "Tox Typewriter", sans-serif;
+  font-size: 30px;
+  color: #f9f9f9;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.frontpage .text .fp4 {
+  font-family: "Tox Typewriter", sans-serif;
+  font-size: 22px;
+  color: #f9f9f9;
+  text-align: center;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.frontpage .text p {
+  margin: 0;
+}
+.frontpage .text a {
+  padding: 15px 50px;
+  transition-duration: 0.2s;
+  background-color: #9F0C22;
+  border-radius: 8px;
+  margin-top: 30px;
+  color: #f9f9f9;
+  border: 1px solid #9F0C22;
+  font-family: "DIN Next Slab", sans-serif;
+  font-size: 18px;
+}
+.frontpage .text .button-billet:hover {
+  border: 1px solid #ffffff;
+  color: #f9f9f9;
+  transition: 0.3s;
+}
+.frontpage .text .button-billet a:active {
+  border: 2px solid #ffffff;
+}
+@media screen and (max-width: 1010px) {
+  .frontpage .text .fp1 {
+    font-size: 80px;
+  }
+  .frontpage .text .fp2 {
+    font-size: 60px;
+  }
+  .frontpage .text .fp3 {
+    font-size: 20px;
+  }
+  .frontpage .text .fp4 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .frontpage .text .fp1 {
+    font-size: 60px;
+  }
+  .frontpage .text .fp2 {
+    font-size: 50px;
+  }
+  .frontpage .text .fp4 {
+    font-size: 15px;
+  }
+}
+
+/*first section after frontpage*/
+.firstsection {
+  box-sizing: border-box;
+  /*the right of the two col*/
+  /*the left of the two col*/
+}
+.firstsection .rightbox {
+  background-image: url(/img/calendar-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  right: 0;
+  max-height: 420px;
+}
+.firstsection .rightbox .text {
+  margin-left: 55px;
+}
+.firstsection .leftbox {
+  background-image: url(/img/tickets-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 420px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  /*whitebox in the center in the left*/
+  /*mediaresponse to the whiteplaster in the leftbox*/
+}
+.firstsection .leftbox .whiteplaster {
+  background-image: url(/img/white-texture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 40px;
+}
+.firstsection .leftbox .whiteplaster .content {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.firstsection .leftbox .whiteplaster .content .blacklogo {
+  max-height: 80px;
+  margin-bottom: 8px;
+}
+.firstsection .leftbox .whiteplaster .content button {
+  display: flex;
+  align-items: center;
+  border: none;
+}
+.firstsection .leftbox .whiteplaster .content button img {
+  max-height: 30px;
+  rotate: 270deg;
+}
+@media only screen and (max-width: 900px) {
+  .firstsection .leftbox .whiteplaster .content button img {
+    max-height: 20px;
+  }
+}
+.firstsection .leftbox .whiteplaster button:hover {
+  transform: scale(1.1);
+}
+@media screen and (max-width: 1150px) {
+  .firstsection .leftbox .whiteplaster {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .firstsection .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .firstsection .row .rightbox {
+    width: 100%;
+    min-height: 400px;
+  }
+  .firstsection .row .leftbox {
+    width: 100%;
+    min-height: 400px;
+  }
+}
+/*second section*/
+.secondsection {
+  background-image: url(/img/white-texture-logo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+  max-width: 100%;
+}
+.secondsection .gallery {
+  display: flex;
+  align-items: center;
+}
+.secondsection .gallery .carousel-inner {
+  max-width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 960px) {
+  .secondsection .row {
+    flex-direction: column;
+  }
+  .secondsection .row .gallery {
+    margin-bottom: 40px;
+  }
+  .secondsection .row p {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
+
+/*third section*/
+.thirdsection {
+  background-image: url(/img/black-texture.jpg);
+  background-size: cover;
+  padding: 0 10%;
+  /*toptext*/
+  /*img editing + the next 3 classes*/
+  /*kidsque text*/
+}
+.thirdsection .row {
+  padding: 25px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  justify-content: center;
+}
+.thirdsection .firstrow {
+  padding-top: 80px;
+}
+.thirdsection img {
+  max-height: 450px;
+  background-color: #f9f9f9;
+  border-radius: 20px;
+}
+.thirdsection .cars {
+  max-height: 300px;
+}
+.thirdsection .kidsque {
+  margin: -60px 0 -60px 50px;
+}
+.thirdsection .volunteers {
+  margin-top: -40px;
+}
+.thirdsection .volunteerscol {
+  padding-bottom: 30px;
+}
+@media only screen and (max-width: 1000px) {
+  .thirdsection img {
+    max-height: 400px;
+  }
+  .thirdsection .cars {
+    max-height: 250px;
+  }
+  .thirdsection .kidsque {
+    margin: -40px 0 -20px 50px;
+  }
+  .thirdsection .volunteers {
+    margin-top: -40px;
+  }
+}
+@media only screen and (max-width: 822px) {
+  .thirdsection .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .thirdsection .row .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  .thirdsection .row .textcontent2 {
+    margin: 0;
+  }
+  .thirdsection .row img {
+    height: 320px;
+  }
+  .thirdsection .row .cars {
+    max-height: 250px;
+  }
+  .thirdsection .row .kidsque {
+    margin: 0;
+  }
+  .thirdsection .row .volunteers {
+    margin: 0;
+  }
+  .thirdsection .kidsrow {
+    flex-direction: column-reverse;
+  }
+}
+.thirdsection .textcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.thirdsection .textcontent2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 60px;
+}
+
+/*countdown starter*/
+.countdown-col {
+  background-image: url(/img/red-pattern.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+}
+.countdown-col h1 {
+  font-family: "Mocha Mattari";
+  color: #f9f9f9;
+  font-size: 70px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 16px;
+}
+.countdown-col p {
+  color: #ededed;
+  font-family: "Tox Typewriter", sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+.countdown-col .countdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.countdown-col .countdown .time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  margin-top: 50px;
+  font-family: "DIN Next Slab", sans-serif;
+  color: #f9f9f9;
+}
+.countdown-col .countdown .time h2 {
+  font-size: 75px;
+  font-family: "DIN Next Slab", sans-serif;
+  color: #f9f9f9;
+}
+.countdown-col .countdown .time p {
+  margin-bottom: 60px; /*added*/
+  font-family: "DIN Next Slab", sans-serif;
+  font-size: 24px;
+}
+
+/*countdown ender*/
+/*instagram starter*/
+.instagram-account {
+  background-image: url(/img/black-texture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 85px 10%;
+  /*instagram tekst begynder*/
+  /*instagram tekst ender*/
+  /*images fra instagram begynder*/
+  /*images fra instagram ender*/
+}
+.instagram-account .insta-left {
+  align-self: center;
+  display: inline;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.instagram-account .insta-left h1 {
+  font-family: "Mocha Mattari";
+  color: #f9f9f9;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+.instagram-account .insta-left p {
+  color: #bababa;
+  font-family: "Tox Typewriter", sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+.instagram-account .insta-left .instagram-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.3s;
+  margin-top: 60px;
+}
+.instagram-account .insta-left .instagram-button a {
+  font-family: "DIN Next Slab", sans-serif;
+  color: #f9f9f9;
+  padding: 15px 50px;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: 0.3s;
+  background-color: #9F0C22;
+}
+.instagram-account .insta-left .instagram-button a:hover {
+  border: 1px solid #f9f9f9;
+}
+.instagram-account .instagram-images {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: center;
+}
+.instagram-account .instagram-images .instagram-images-1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.instagram-account .instagram-images .instagram-images-1 img {
+  max-width: 350px;
+  border-radius: 20px;
+}
+.instagram-account .instagram-images .instagram-images-2 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.instagram-account .instagram-images .instagram-images-2 img {
+  max-width: 350px;
+  border-radius: 20px;
+}
+.instagram-account .instagram-images .instagram-images-3 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.instagram-account .instagram-images .instagram-images-3 img {
+  max-width: 350px;
+  border-radius: 20px;
+}
+
+/*instagram ender*/
+/*hjælp starter*/
+.helpcentersection {
+  padding: 0;
+}
+.helpcentersection .help-letter {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+.helpcentersection .help-letter .helpcenter {
+  background-image: url(/img/red-pattern.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-right: 0;
+  padding-left: 0;
+  display: inline;
+  align-self: center;
+  min-height: 100%;
+  flex: 50%;
+  width: 100%;
+}
+.helpcentersection .help-letter .helpcenter h1 {
+  font-family: "Mocha Mattari";
+  color: #f9f9f9;
+  font-size: 50px;
+  text-align: center;
+  margin: 50px 0 30px 0;
+  padding: 0;
+}
+.helpcentersection .help-letter .helpcenter p {
+  color: #ededed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "DIN Next Slab", sans-serif;
+}
+.helpcentersection .help-letter .helpcenter .sat-sun {
+  margin-bottom: 35px;
+}
+.helpcentersection .help-letter .helpcenter .helpcenter-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.3s;
+  margin: 50px 0px 70px 0;
+  text-align: center;
+}
+.helpcentersection .help-letter .helpcenter .helpcenter-button a {
+  font-family: "DIN Next Slab", sans-serif;
+  color: #f9f9f9;
+  padding: 15px 50px;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: 0.3s;
+  background-color: #1a1a1a;
+}
+.helpcentersection .help-letter .helpcenter .helpcenter-button a:hover {
+  border: 1px solid #f9f9f9;
+}
+.helpcentersection .help-letter .helpcenter .helpcenter-button :active {
+  border: 2px solid #f9f9f9;
+}
+
+/*hjælp ender*/
+/*nyhedsbrev starter*/
+.newsletter {
+  background-image: url(/img/white-texture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-right: 0;
+  padding-left: 0;
+  display: inline;
+  align-self: center;
+  min-height: 100%;
+  flex: 50%;
+  width: 100%;
+}
+.newsletter h1 {
+  font-family: "Mocha Mattari";
+  color: #1a1a1a;
+  font-size: 50px;
+  text-align: center;
+  margin: 50px 0 70px 0;
+}
+.newsletter .newsletter-input {
+  font-family: "DIN Next Slab", sans-serif;
+  display: flex;
+  gap: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #434343;
+  margin-bottom: 115px;
+}
+.newsletter .newsletter-input .form-floating .form-control {
+  min-width: 300px;
+  border-radius: 8px;
+}
+.newsletter .newsletter-input .form-control:focus {
+  box-shadow: none;
+}
+.newsletter .newsletter-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.3s;
+  margin: 50px 0px 70px 0;
+  text-align: center;
+}
+.newsletter .newsletter-button a {
+  color: #f9f9f9;
+  font-family: "DIN Next Slab", sans-serif;
+  padding: 15px 70px;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #1a1a1a;
+}
+.newsletter .newsletter-button a:hover {
+  border: 3px solid #9F0C22;
+}
+.newsletter .newsletter-button :active {
+  border: 3px solid #9F0C22;
+}
+
+/*nyhedsbrev ender*/
+.footer-parent {
+  background-image: url(/img/black-texture.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*logo starter*/
+  /*logo ender*/
+  /*links starter*/
+  /*links ender*/
+  /*vælg sprog starter*/
+  /*vælg sprog ender*/
+}
+.footer-parent .footer-logo {
+  padding: 0;
+}
+.footer-parent .footer-logo .footer-logo-img {
+  padding: 0 10%;
+  max-height: 350px;
+  margin-top: 75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-parent .footer-links {
+  padding: 0 10%;
+  display: flex;
+  gap: 40px;
+  margin: 50px 0;
+  justify-content: center;
+  align-items: center;
+}
+.footer-parent .footer-links a {
+  color: #f9f9f9;
+  font-family: "DIN Next Slab", sans-serif;
+  font-size: 18px;
+}
+.footer-parent .footer-links a :hover {
+  color: #9F0C22;
+}
+.footer-parent .footer-dropdown-row {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+.footer-parent .footer-dropdown-row .footer-dropdown {
+  border-radius: 8px;
+  align-items: center;
+  padding: 0;
+}
+.footer-parent .footer-dropdown-row .footer-dropdown a {
+  color: #1a1a1a;
+  font-family: "DIN Next Slab", sans-serif;
+  padding: 0 20px;
+}
+.footer-parent .footer-dropdown-row .footer-dropdown .dropdown {
+  display: flex;
+  border-radius: 8px;
+  width: 200px;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+.footer-parent .footer-dropdown-row .footer-dropdown .dropdown .footer-dropdown-box {
+  display: flex;
+  align-items: center;
+}
+.footer-parent .footer-dropdown-row .footer-dropdown .dropdown .footer-dropdown-box .footer-choose-language {
+  margin: 0;
+  color: #1a1a1a;
+  display: inline;
+}
+.footer-parent .footer-dropdown-row .footer-dropdown .dropdown .footer-dropdown-box img {
+  height: 60px;
+  padding-left: 20px;
+}
+.footer-parent .footer-dropdown-row .footer-dropdown .dropdown .dropdown-menu {
+  background-color: #f9f9f9;
+  width: 200px;
+}
+.footer-parent .footer-dropdown-row .footer-dropdown .dropdown .dropdown-menu :hover {
+  background-color: #9F0C22;
+  color: #f9f9f9;
+}
+.footer-parent .footer-dropdown-row .footer-dropdown .dropdown .dropdown-menu a {
+  padding: 10px 20px;
+}
+
+/*sociale medier starter*/
+.footer-some {
+  padding: 0 10%;
+}
+.footer-some .footer-some-logo {
+  margin: 75px 0 50px 0;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  transition: 0.3s;
+}
+.footer-some .footer-some-logo a :hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+.footer-some .footer-some-logo img {
+  max-height: 60px;
+}
+
+/*sociale medier ender*/
+/*ekstra oplysninger starter*/
+.footer-address {
+  padding: 0 10%;
+  color: #f9f9f9;
+  font-size: 18px;
+  margin-bottom: 25px;
+  font-family: "DIN Next Slab", sans-serif;
+  text-align: center;
+}
+
+.footer-cookie {
+  padding: 0 10%;
+  color: #bababa;
+  margin-bottom: 50px;
+  font-family: "DIN Next Slab", sans-serif;
+  text-align: center;
+}
+
+.footer-copyright {
+  color: #f9f9f9;
+  width: 100%;
+  background-color: #1a1a1a;
+  filter: opacity(50%);
+  margin: 0;
+  padding: 24px 0;
+}
+
+.footer-copyright p {
+  margin: 0;
+  font-family: "DIN Next Slab", sans-serif;
+  text-align: center;
+}
+
+/*ekstra oplysninger ender*/
+/*media begynder*/
+@media only screen and (max-width: 1490px) {
+  .footer-dropdown {
+    padding-left: 50px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .footer-dropdown {
+    padding-left: 80px;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  .footer-dropdown {
+    padding-left: 90px;
+  }
+}
+@media only screen and (max-width: 970px) {
+  .footer-dropdown {
+    padding-left: 100px;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .footer-dropdown {
+    padding-left: 120px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .footer-parent .footer-logo-img {
+    height: 300px;
+  }
+  .footer-dropdown {
+    padding-left: 140px;
+  }
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-links p {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .newsletter .newsletter-input {
+    gap: 16px;
+  }
+  .newsletter .newsletter-input .form-floating .form-control {
+    min-width: 250px;
+    border-radius: 8px;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .newsletter .newsletter-input {
+    gap: 14px;
+  }
+  .newsletter .newsletter-input .form-floating .form-control {
+    min-width: 200px;
+    border-radius: 8px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .help-letter {
+    display: flex;
+    flex-direction: column;
+  }
+  .help-letter .newsletter .newsletter-input {
+    gap: 24px;
+  }
+  .help-letter .newsletter .newsletter-input .form-floating .form-control {
+    min-width: 300px;
+    border-radius: 8px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .countdown-col h1 {
+    font-size: 45px !important;
+  }
+  .countdown-col .countdown .time h2 {
+    font-size: 50px !important;
+  }
+  .countdown-col .countdown .time p {
+    font-size: 18px !important;
+  }
+}
+@media only screen and (max-width: 1773px) {
+  .instagram-images {
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+  }
+  .instagram-images img {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 1599px) {
+  .insta-right {
+    margin-top: 60px;
+  }
+}
+@media only screen and (max-width: 1360px) {
+  .instagram-images {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+  .instagram-images img {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 1052px) {
+  .instagram-account {
+    display: flex;
+    flex-direction: column;
+  }
+  .instagram-account .insta-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .instagram-account .instagram-images {
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+  }
+  .instagram-account .instagram-images img {
+    width: 400px;
+  }
+}
+/*media ender*//*# sourceMappingURL=style.css.map */
