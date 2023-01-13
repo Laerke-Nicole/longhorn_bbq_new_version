@@ -13,3 +13,189 @@ font-family: 'Mocha Mattari'; - er for overskrifter
 font-family: 'Tox Typewriter', sans-serif; - er for undertekst
 font-family: 'DIN Next Slab', sans-serif; - er for brødtekst og knapper
 */
+
+.firstsection {
+    color: #f9f9f9;
+    
+    /*to the right*/
+    .dates {
+        font-family: 'DIN Next Slab', sans-serif;
+        font-size: 16px;
+        color: #1a1a1abb;
+        margin-bottom: 5px;
+    }
+    
+    h1 {
+        font-family: 'Mocha Mattari';
+        font-size: 65px;
+        margin-bottom: 50px;
+    }
+
+    .underline {
+        font-family: 'Tox Typewriter', sans-serif;
+        font-size: 20px;
+        color: #f9f9f9;
+        margin-bottom: 30px !important;
+        text-shadow: 0 4px 10px rgb(0 0 0 / 20%)
+    }
+
+    .buttona {
+        text-decoration: none;
+        font-family: 'DIN Next Slab', sans-serif;
+        color: #f9f9f9;
+        font-size: 16px;
+        margin: 0;
+        cursor: pointer;
+        background-color: #1a1a1a;
+        border-radius: 8px;
+        padding: 15px 25px;
+        border: none;
+    }
+
+    .buttona:hover {
+        border: 1px solid #f9f9f9;
+    }
+
+    .buttona:active { 
+        border: 2px solid #f9f9f9;
+    }
+
+    /*to the left */
+    .lefth1 {
+        font-family: 'Mocha Mattari';
+        font-size: 40px;
+        margin-bottom: 10px;
+        color: #1a1a1a;
+    }
+
+    .viharalt {
+        font-family: 'DIN Next Slab', sans-serif;
+        font-size: 16px;
+        color: #1a1a1a89;
+        margin: 5px 40px;
+    }
+
+   
+    .vinderne {
+        font-family: 'Tox Typewriter', sans-serif;
+        font-size: 16px;
+        color: #1a1a1a; 
+        margin: 0;
+    }
+
+    @media only screen and (max-width: 990px) {
+      
+        .dates {
+            font-family: 'DIN Next Slab', sans-serif;
+            font-size: 15px;
+            color: #1a1a1a89;
+            margin-bottom: 10px;
+        }
+        
+        h1 {
+            font-family: 'Mocha Mattari';
+            font-size: 45px;
+            margin-bottom: 40px;
+        }
+    
+        .underline {
+            font-family: 'Tox Typewriter', sans-serif;
+            font-size: 17px;
+            color: #f9f9f9;
+            margin-bottom: 15px;
+        }
+       
+        .lefth1 {
+            font-family: 'Mocha Mattari';
+            font-size: 30px;
+            margin: 10px 0;
+            color: #1a1a1a;
+        }
+    
+        .viharalt {
+            font-family: 'DIN Next Slab', sans-serif;
+            font-size: 12px;
+            color: #1a1a1a89;
+            margin: 5px 20px;
+    
+        }
+    
+        .vinderne {
+            font-family: 'Tox Typewriter', sans-serif;
+            font-size: 12px;
+            color: #1a1a1a; 
+            margin: 0;
+        }
+    }
+}
+
+
+/*second section*/
+.secondsection {
+    h1 {
+    font-family: 'Mocha Mattari';
+    font-size: 55px;
+    margin-bottom: 30px;
+    margin-top: 80px;
+    color: $secondary-color;
+    }
+
+    p  {
+    font-family: 'DIN Next Slab', sans-serif;
+    font-size: 18px;
+    color: $third-color;
+    margin: 0;
+    margin-right: 15%;
+    margin-bottom: 50px;
+   
+    }
+}
+
+/*third section*/
+.thirdsection {
+    padding: 0 10%;
+    h1 {
+        font-family: 'Mocha Mattari';
+        font-size: 55px;
+        padding: 0;
+        color: #f9f9f9;
+        text-align: center;
+    }
+
+    h2 {
+        font-family: 'Mocha Mattari';
+        font-size: 24px;
+        padding: 0;
+        color: #f9f9f9;
+    }
+
+    /*underline*/
+    h3  {
+        font-family: 'Tox Typewriter', sans-serif;
+        font-size: 24px;
+        color: #bababa;
+        text-align: center;
+        padding-bottom: 20px;
+        }
+
+    p  {
+        font-family: 'DIN Next Slab', sans-serif;
+        font-size: 18px;
+        color: #bababa;
+        }
+    
+        @media only screen and (max-width: 1000px) {
+            h2 {
+                font-size: 18px;
+            } 
+            p  {
+                font-size: 16px;  
+                }
+        }
+
+        @media only screen and (max-width: 822px) {
+            h2 {
+                margin-top: 25px;
+            } 
+        }
+}
