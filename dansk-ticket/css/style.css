@@ -1,0 +1,135 @@
+@charset "UTF-8";
+@import url("https://fonts.cdnfonts.com/css/tox-typewriter");
+@import url("https://fonts.cdnfonts.com/css/din-next-slab");
+/*hover og baggrundsfarver til fx knapper*/
+/*sort overskrift*/
+/*brød- og undertle overskrift*/
+/*hvid overskrift*/
+/*brød- og undertle overskrift på mørk baggrund*/
+/*brød- og undertle overskrift på lys baggrund*/
+/*@import url('//db.onlinewebfonts.com/c/c11f09354fd4806c55145d568617bf1a?family=Mocha+Mattari');*/
+@font-face {
+  font-family: "Mocha Mattari";
+  src: url("/css/Mocha Mattari W01 Regular.ttf");
+}
+/*
+font-family: 'Mocha Mattari'; - er for overskrifter
+font-family: 'Tox Typewriter', sans-serif; - er for undertekst
+font-family: 'DIN Next Slab', sans-serif; - er for brødtekst og knapper
+*/
+h1 {
+  font-family: "mocha mattari";
+  font-size: 48px;
+  color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1cm;
+}
+
+h2 {
+  font-family: "DIN Next Slab", sans-serif;
+  font-size: 18px;
+  color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*subpage*/
+.background {
+  background-image: url(/img/red-pattern.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.entrance h1 {
+  font-family: "mocha mattari";
+  font-size: 45px;
+  color: #1a1a1a;
+  margin: 0;
+  display: none;
+}
+
+.row {
+  padding-top: 2cm;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row .col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row .col page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.row .col page .list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-top: 0;
+}
+.row button {
+  margin: 1cm 0;
+  padding: 5px 10px;
+}
+.row button:hover {
+  transform: scale(1.1);
+}
+
+.sendemail {
+  margin: auto 1cm;
+  padding: 0;
+}
+.sendemail .printtekst {
+  display: none;
+}
+
+page {
+  background: #f9f9f9;
+  display: block;
+  margin-bottom: 1cm auto;
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+}
+page img {
+  height: 300px;
+  margin-top: 2cm;
+}
+
+page[size=A4] {
+  width: 21cm;
+  height: 29.7cm;
+}
+
+page[size=A4][layout=landscape] {
+  width: 29.7cm;
+  height: 21cm;
+}
+
+@media print {
+  body, page {
+    background: #ffffff;
+    margin: 0;
+    box-shadow: 0;
+  }
+  body h1, page h1 {
+    display: none;
+  }
+  body button, page button {
+    display: none;
+  }
+  body .entrance h1, page .entrance h1 {
+    font-family: "mocha mattari";
+    font-size: 45px;
+    color: #1a1a1a;
+    margin: 0;
+    display: block;
+  }
+}/*# sourceMappingURL=style.css.map */

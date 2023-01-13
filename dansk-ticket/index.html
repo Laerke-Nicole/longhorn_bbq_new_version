@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Longhorn BBQ 2023</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="/dansk-ticket/css/style.css">
+  </head>
+  <body>
+
+    <div class="container-fluid background">
+      <div class="row">
+        
+        <div class="col"><h1>PRINT DENNE BILLET FOR INDGANG TIL LONGHORN 2023</h1></div>
+        
+        <div class="col">
+          <page size="A4">
+            <div class="row"><img src="/img/black-logo.png" alt=""></div>
+            <div class="row entrance"><h1>Entré billet bevis</h1></div>
+            <div class="row g-2 list">
+              <div class="col-md">
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="">
+                  <label for="floatingInputGrid">Navn</label>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="">
+                  <label for="floatingInputGrid">Alder</label>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="form-floating">
+                  <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                    <option selected>Kvinde/pige</option>
+                    <option value="1">Mand/dreng</option>
+                  </select>
+                  <label for="floatingSelectGrid">Køn</label>
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="">
+                  <label for="floatingInputGrid">E-mail</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="row sendemail">
+              <h2>*Send venligst en kopi af denne billet til hej@longhornbbq.dk inden d 1. februar for at deltage i konkurrencen om en gratis omgang kød fra et af holdene på konkurrencedagene. Vinderen får besked på E-mail.</h2>
+            </div>
+
+          </page>
+        </div>
+
+        
+        
+        <div class="col"><button onclick="window.print()">Udskriv</button></div>
+
+      </div>
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
