@@ -13,7 +13,7 @@ html {
 
 /*nav*/
 .navbar {
-    background-image: url('../img/black-texture.jpg');
+    background-image: url(/img/black-texture.jpg);
     position: fixed;
     padding: 0 10% !important;
     display: flex;
@@ -48,7 +48,7 @@ html {
     }
 
     .offcanvas {
-        background-image: url(../img/white-texture.jpg);
+        background-image: url(/img/white-texture.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: left center;
@@ -118,7 +118,7 @@ html {
     .navbar {
         .logo {
             img {
-                max-height: 70px;
+                max-height: 60px;
             }
         }
         .navbar-language {
