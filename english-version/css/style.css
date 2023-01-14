@@ -862,7 +862,7 @@ html {
 
 @media screen and (max-width: 680px) {
   .newsletter-input .form-floating .form-control {
-    min-width: 150px !important;
+    min-width: 175px !important;
   }
 }
 /*nyhedsbrev ender*/

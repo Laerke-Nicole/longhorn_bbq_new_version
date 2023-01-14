@@ -118,7 +118,7 @@ html {
     .navbar {
         .logo {
             img {
-                max-height: 60px;
+                max-height: 70px;
             }
         }
         .navbar-language {
@@ -131,7 +131,7 @@ html {
 
 .frontpage {
     min-height: 95vh;
-    background-image: url(../img/hero-img-front-page.jpg);
+    background-image: url(/img/hero-img-front-page.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -187,7 +187,7 @@ html {
             color: $fourth-color;
             border: 1px solid $primary-color;
             font-family: 'DIN Next Slab', sans-serif;
-            font-size: 16px;
+            font-size: 18px;
         }
         
         .button-billet:hover {
@@ -245,7 +245,7 @@ html {
     box-sizing: border-box;
     /*the right of the two col*/
    .rightbox {
-       background-image: url(../img/calendar-img.jpg);
+       background-image: url(/img/calendar-img.jpg);
        background-size: cover;
        background-repeat: no-repeat;
        padding: 0;
@@ -265,7 +265,7 @@ html {
 
    /*the left of the two col*/
    .leftbox {
-       background-image: url(../img/tickets-background.jpg);
+       background-image: url(/img/tickets-background.jpg);
        background-size: cover;
        background-repeat: no-repeat;
        min-height: 420px;
@@ -277,7 +277,7 @@ html {
 
         /*whitebox in the center in the left*/
        .whiteplaster {
-           background-image: url(../img/white-texture.jpg);
+           background-image: url(/img/white-texture.jpg);
            background-size: cover;
            background-repeat: no-repeat;
            border-radius: 20px;
@@ -354,7 +354,7 @@ html {
 
 /*second section*/
     .secondsection {
-        background-image: url(../img/white-texture-logo.jpg);
+        background-image: url(/img/white-texture-logo.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         display: flex;
@@ -389,7 +389,7 @@ html {
 
 /*third section*/
     .thirdsection {
-        background-image: url(../img/black-texture.jpg);
+        background-image: url(/img/black-texture.jpg);
         background-size: cover;
         padding: 0 10%;
         .row {
@@ -496,7 +496,7 @@ html {
 
 /*countdown starter*/
     .countdown-col {
-        background-image: url(../img/red-pattern.jpg);
+        background-image: url(/img/red-pattern.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: left center;
@@ -555,7 +555,7 @@ html {
 
 /*instagram starter*/
 .instagram-account {
-    background-image: url(../img/black-texture.jpg);
+    background-image: url(/img/black-texture.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left center;
@@ -643,7 +643,6 @@ html {
     }
     /*images fra instagram ender*/
 }
-    
 
 /*instagram ender*/
 
@@ -655,7 +654,7 @@ html {
         flex-direction: row;
         align-items: stretch;
         .helpcenter {
-            background-image: url(../img/red-pattern.jpg);
+            background-image: url(/img/red-pattern.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: left center;
@@ -717,7 +716,7 @@ html {
 
 /*nyhedsbrev starter*/
 .newsletter {
-    background-image: url(../img/white-texture.jpg);
+    background-image: url(/img/white-texture.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: left center;
@@ -752,7 +751,6 @@ html {
             box-shadow: none;
         }
     }
-
     .newsletter-button {
         display: block;
         margin-left: auto;
@@ -781,7 +779,7 @@ html {
     .newsletter-input {
         .form-floating {
             .form-control {
-                min-width: 150px !important;
+                min-width: 175px !important;
             }
         }
     }
@@ -790,7 +788,7 @@ html {
 /*nyhedsbrev ender*/
 
 .footer-parent {
-    background-image: url(../img/black-texture.jpg);
+    background-image: url(/img/black-texture.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1107,6 +1105,7 @@ html {
         }
     }
 }
+
 
 /*media ender*/
 

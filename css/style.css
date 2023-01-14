@@ -274,7 +274,7 @@ html {
 
 @media only screen and (max-width: 650px) {
   .navbar .logo img {
-    max-height: 60px;
+    max-height: 70px;
   }
   .navbar .navbar-language {
     font-size: 18px;
@@ -283,7 +283,7 @@ html {
 /*frontpage*/
 .frontpage {
   min-height: 95vh;
-  background-image: url(../img/hero-img-front-page.jpg);
+  background-image: url(/img/hero-img-front-page.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -336,7 +336,7 @@ html {
   color: #f9f9f9;
   border: 1px solid #9F0C22;
   font-family: "DIN Next Slab", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
 }
 .frontpage .text .button-billet:hover {
   border: 1px solid #ffffff;
@@ -379,7 +379,7 @@ html {
   /*the left of the two col*/
 }
 .firstsection .rightbox {
-  background-image: url(../img/calendar-img.jpg);
+  background-image: url(/img/calendar-img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0;
@@ -395,7 +395,7 @@ html {
   }
 }
 .firstsection .leftbox {
-  background-image: url(../img/tickets-background.jpg);
+  background-image: url(/img/tickets-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 420px;
@@ -408,7 +408,7 @@ html {
   /*mediaresponse to the whiteplaster in the leftbox*/
 }
 .firstsection .leftbox .whiteplaster {
-  background-image: url(../img/white-texture.jpg);
+  background-image: url(/img/white-texture.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
@@ -467,7 +467,7 @@ html {
 }
 /*second section*/
 .secondsection {
-  background-image: url(../img/white-texture-logo.jpg);
+  background-image: url(/img/white-texture-logo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -498,7 +498,7 @@ html {
 
 /*third section*/
 .thirdsection {
-  background-image: url(../img/black-texture.jpg);
+  background-image: url(/img/black-texture.jpg);
   background-size: cover;
   padding: 0 10%;
   /*toptext*/
@@ -592,7 +592,7 @@ html {
 
 /*countdown starter*/
 .countdown-col {
-  background-image: url(../img/red-pattern.jpg);
+  background-image: url(/img/red-pattern.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left center;
@@ -647,7 +647,7 @@ html {
 /*countdown ender*/
 /*instagram starter*/
 .instagram-account {
-  background-image: url(../img/black-texture.jpg);
+  background-image: url(/img/black-texture.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left center;
@@ -744,7 +744,7 @@ html {
   align-items: stretch;
 }
 .helpcentersection .help-letter .helpcenter {
-  background-image: url(../img/red-pattern.jpg);
+  background-image: url(/img/red-pattern.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left center;
@@ -801,7 +801,7 @@ html {
 /*hjælp ender*/
 /*nyhedsbrev starter*/
 .newsletter {
-  background-image: url(../img/white-texture.jpg);
+  background-image: url(/img/white-texture.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left center;
@@ -862,12 +862,12 @@ html {
 
 @media screen and (max-width: 680px) {
   .newsletter-input .form-floating .form-control {
-    min-width: 150px !important;
+    min-width: 175px !important;
   }
 }
 /*nyhedsbrev ender*/
 .footer-parent {
-  background-image: url(../img/black-texture.jpg);
+  background-image: url(/img/black-texture.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
