@@ -14,7 +14,6 @@ html {
 /*nav*/
 .navbar {
     background-image: url('../img/black-texture.jpg');
-    min-height: 80px;
     position: fixed;
     padding: 0 10% !important;
     display: flex;
@@ -115,6 +114,19 @@ html {
     }
 }
 
+@media only screen and (max-width: 650px) {
+    .navbar {
+        .logo {
+            img {
+                max-height: 70px;
+            }
+        }
+        .navbar-language {
+            font-size: 18px;
+        }
+    }
+}
+
 /*frontpage*/
 
 .frontpage {
@@ -132,14 +144,14 @@ html {
         align-items: center;
         .fp1 {
             font-family: 'Mocha Mattari';
-            font-size: 120px;
+            font-size: 100px;
             color: #f9f9f9;
             text-shadow: 0 4px 10px rgb(0 0 0 / 20%)
         }
         
         .fp2 {
             font-family: 'Mocha Mattari';
-            font-size: 90px;
+            font-size: 70px;
             color: #f9f9f9;
             margin-top: -30px;
             margin-bottom: 50px;
@@ -175,7 +187,7 @@ html {
             color: $fourth-color;
             border: 1px solid $primary-color;
             font-family: 'DIN Next Slab', sans-serif;
-            font-size: 18px;
+            font-size: 16px;
         }
         
         .button-billet:hover {
@@ -241,6 +253,11 @@ html {
        max-height: 420px;
        .text {
            margin-left: 55px;
+       }
+       @media screen and (max-width: 460px) {
+        .text {
+            margin-left: 30px;
+        }
        }
    }
 
@@ -735,6 +752,7 @@ html {
             box-shadow: none;
         }
     }
+
     .newsletter-button {
         display: block;
         margin-left: auto;
@@ -758,6 +776,17 @@ html {
         }
     }
 }
+
+@media screen and (max-width: 680px) {
+    .newsletter-input {
+        .form-floating {
+            .form-control {
+                min-width: 200px !important;
+            }
+        }
+    }
+}
+
 /*nyhedsbrev ender*/
 
 .footer-parent {
@@ -917,9 +946,55 @@ html {
 /*ekstra oplysninger ender*/
 
 /*media begynder*/
+@media only screen and (max-width: 1773px) {
+    .instagram-images {
+        column-gap: 30px;
+
+        img {
+            width: 300px;
+        }
+    } 
+}
+
+@media only screen and (max-width: 1599px) {
+    .insta-right {
+        margin-top: 60px;
+    }
+}
+
 @media only screen and (max-width: 1490px) {
     .footer-dropdown {
         padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .newsletter {
+        .newsletter-input {
+            gap: 16px;
+            .form-floating .form-control {
+                min-width: 250px;
+                border-radius: 8px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+    .instagram-images {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+
+        img {
+            width: 400px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1395px) {
+    .newsletter-input {
+        margin-bottom: 114px !important;
     }
 }
 
@@ -929,10 +1004,58 @@ html {
     }
 }
 
+@media only screen and (max-width: 1052px) {
+    .instagram-account  {
+        display: flex;
+        flex-direction: column;
+
+        .insta-right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .instagram-images {
+            column-gap: 30px;
+            
+            img {
+                width: 400px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    .newsletter {
+        .newsletter-input {
+            gap: 14px;
+            .form-floating .form-control {
+                min-width: 200px;
+                border-radius: 8px;
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 1080px) {
     .footer-dropdown {
         padding-left: 90px;
     }
+}
+
+@media only screen and (max-width: 1050px) {
+    .help-letter {
+        display: flex;
+        flex-direction: column;
+        .newsletter {
+            .newsletter-input {
+                gap: 24px;
+                .form-floating .form-control {
+                    min-width: 300px;
+                    border-radius: 8px;
+                }
+            }
+        }
+    }  
 }
 
 @media only screen and (max-width: 970px) {
@@ -967,50 +1090,6 @@ html {
     }
 }
 
-
-
-
-@media only screen and (max-width: 1400px) {
-    .newsletter {
-        .newsletter-input {
-            gap: 16px;
-            .form-floating .form-control {
-                min-width: 250px;
-                border-radius: 8px;
-            }
-        }
-    }
-}
-
-
-@media only screen and (max-width: 1150px) {
-    .newsletter {
-        .newsletter-input {
-            gap: 14px;
-            .form-floating .form-control {
-                min-width: 200px;
-                border-radius: 8px;
-            }
-        }
-    }
-}
-
-@media only screen and (max-width: 1050px) {
-    .help-letter {
-        display: flex;
-        flex-direction: column;
-        .newsletter {
-            .newsletter-input {
-                gap: 24px;
-                .form-floating .form-control {
-                    min-width: 300px;
-                    border-radius: 8px;
-                }
-            }
-        }
-    }  
-}
-
 @media screen and (max-width: 650px) {
     .countdown-col {
         h1 {
@@ -1024,54 +1103,6 @@ html {
                 p {
                     font-size: 18px !important;
                 }
-            }
-        }
-    }
-}
-
-@media only screen and (max-width: 1773px) {
-    .instagram-images {
-        column-gap: 30px;
-
-        img {
-            width: 300px;
-        }
-    } 
-}
-
-@media only screen and (max-width: 1599px) {
-    .insta-right {
-        margin-top: 60px;
-    }
-}
-
-@media only screen and (max-width: 1360px) {
-    .instagram-images {
-        display: flex;
-        flex-direction: column;
-        width: 400px;
-
-        img {
-            width: 400px;
-        }
-    }
-}
-
-@media only screen and (max-width: 1052px) {
-    .instagram-account  {
-        display: flex;
-        flex-direction: column;
-
-        .insta-right {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .instagram-images {
-            column-gap: 30px;
-            
-            img {
-                width: 400px;
             }
         }
     }

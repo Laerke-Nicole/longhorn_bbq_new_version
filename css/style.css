@@ -188,7 +188,6 @@ html {
 /*nav*/
 .navbar {
   background-image: url("../img/black-texture.jpg");
-  min-height: 80px;
   position: fixed;
   padding: 0 10% !important;
   display: flex;
@@ -272,6 +271,14 @@ html {
   box-shadow: none;
 }
 
+@media only screen and (max-width: 650px) {
+  .navbar .logo img {
+    max-height: 70px;
+  }
+  .navbar .navbar-language {
+    font-size: 18px;
+  }
+}
 /*frontpage*/
 .frontpage {
   min-height: 95vh;
@@ -290,13 +297,13 @@ html {
 }
 .frontpage .text .fp1 {
   font-family: "Mocha Mattari";
-  font-size: 120px;
+  font-size: 100px;
   color: #f9f9f9;
   text-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 .frontpage .text .fp2 {
   font-family: "Mocha Mattari";
-  font-size: 90px;
+  font-size: 70px;
   color: #f9f9f9;
   margin-top: -30px;
   margin-bottom: 50px;
@@ -328,7 +335,7 @@ html {
   color: #f9f9f9;
   border: 1px solid #9F0C22;
   font-family: "DIN Next Slab", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 .frontpage .text .button-billet:hover {
   border: 1px solid #ffffff;
@@ -380,6 +387,11 @@ html {
 }
 .firstsection .rightbox .text {
   margin-left: 55px;
+}
+@media screen and (max-width: 460px) {
+  .firstsection .rightbox .text {
+    margin-left: 30px;
+  }
 }
 .firstsection .leftbox {
   background-image: url(../img/tickets-background.jpg);
@@ -847,6 +859,11 @@ html {
   border: 3px solid #9F0C22;
 }
 
+@media screen and (max-width: 680px) {
+  .newsletter-input .form-floating .form-control {
+    min-width: 200px !important;
+  }
+}
 /*nyhedsbrev ender*/
 .footer-parent {
   background-image: url(../img/black-texture.jpg);
@@ -995,9 +1012,47 @@ html {
 
 /*ekstra oplysninger ender*/
 /*media begynder*/
+@media only screen and (max-width: 1773px) {
+  .instagram-images {
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+  }
+  .instagram-images img {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 1599px) {
+  .insta-right {
+    margin-top: 60px;
+  }
+}
 @media only screen and (max-width: 1490px) {
   .footer-dropdown {
     padding-left: 50px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .newsletter .newsletter-input {
+    gap: 16px;
+  }
+  .newsletter .newsletter-input .form-floating .form-control {
+    min-width: 250px;
+    border-radius: 8px;
+  }
+}
+@media only screen and (max-width: 1360px) {
+  .instagram-images {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+  .instagram-images img {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 1395px) {
+  .newsletter-input {
+    margin-bottom: 114px !important;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -1005,9 +1060,49 @@ html {
     padding-left: 80px;
   }
 }
+@media only screen and (max-width: 1052px) {
+  .instagram-account {
+    display: flex;
+    flex-direction: column;
+  }
+  .instagram-account .insta-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .instagram-account .instagram-images {
+    -moz-column-gap: 30px;
+         column-gap: 30px;
+  }
+  .instagram-account .instagram-images img {
+    width: 400px;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .newsletter .newsletter-input {
+    gap: 14px;
+  }
+  .newsletter .newsletter-input .form-floating .form-control {
+    min-width: 200px;
+    border-radius: 8px;
+  }
+}
 @media only screen and (max-width: 1080px) {
   .footer-dropdown {
     padding-left: 90px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .help-letter {
+    display: flex;
+    flex-direction: column;
+  }
+  .help-letter .newsletter .newsletter-input {
+    gap: 24px;
+  }
+  .help-letter .newsletter .newsletter-input .form-floating .form-control {
+    min-width: 300px;
+    border-radius: 8px;
   }
 }
 @media only screen and (max-width: 970px) {
@@ -1035,37 +1130,6 @@ html {
     margin: 0;
   }
 }
-@media only screen and (max-width: 1400px) {
-  .newsletter .newsletter-input {
-    gap: 16px;
-  }
-  .newsletter .newsletter-input .form-floating .form-control {
-    min-width: 250px;
-    border-radius: 8px;
-  }
-}
-@media only screen and (max-width: 1150px) {
-  .newsletter .newsletter-input {
-    gap: 14px;
-  }
-  .newsletter .newsletter-input .form-floating .form-control {
-    min-width: 200px;
-    border-radius: 8px;
-  }
-}
-@media only screen and (max-width: 1050px) {
-  .help-letter {
-    display: flex;
-    flex-direction: column;
-  }
-  .help-letter .newsletter .newsletter-input {
-    gap: 24px;
-  }
-  .help-letter .newsletter .newsletter-input .form-floating .form-control {
-    min-width: 300px;
-    border-radius: 8px;
-  }
-}
 @media screen and (max-width: 650px) {
   .countdown-col h1 {
     font-size: 45px !important;
@@ -1075,48 +1139,6 @@ html {
   }
   .countdown-col .countdown .time p {
     font-size: 18px !important;
-  }
-}
-@media only screen and (max-width: 1773px) {
-  .instagram-images {
-    -moz-column-gap: 30px;
-         column-gap: 30px;
-  }
-  .instagram-images img {
-    width: 300px;
-  }
-}
-@media only screen and (max-width: 1599px) {
-  .insta-right {
-    margin-top: 60px;
-  }
-}
-@media only screen and (max-width: 1360px) {
-  .instagram-images {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-  }
-  .instagram-images img {
-    width: 400px;
-  }
-}
-@media only screen and (max-width: 1052px) {
-  .instagram-account {
-    display: flex;
-    flex-direction: column;
-  }
-  .instagram-account .insta-right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .instagram-account .instagram-images {
-    -moz-column-gap: 30px;
-         column-gap: 30px;
-  }
-  .instagram-account .instagram-images img {
-    width: 400px;
   }
 }
 /*media ender*//*# sourceMappingURL=style.css.map */
