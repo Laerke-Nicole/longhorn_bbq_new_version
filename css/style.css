@@ -38,6 +38,7 @@ font-family: 'DIN Next Slab', sans-serif; - er for brødtekst og knapper
   font-size: 20px;
   color: #f9f9f9;
   margin-bottom: 30px !important;
+  padding-right: 10px;
   text-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 .firstsection .buttona {
@@ -187,7 +188,7 @@ html {
 
 /*nav*/
 .navbar {
-  background-image: url("../img/black-texture.jpg");
+  background-image: url(/img/black-texture.jpg);
   position: fixed;
   padding: 0 10% !important;
   display: flex;
@@ -202,7 +203,7 @@ html {
   /*added*/
 }
 .navbar .logo img {
-  max-height: 90px;
+  max-height: 80px;
   margin: 10px 0;
 }
 .navbar .navbar-language {
@@ -218,7 +219,7 @@ html {
   box-shadow: none;
 }
 .navbar .offcanvas {
-  background-image: url(../img/white-texture.jpg);
+  background-image: url(/img/white-texture.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left center;
@@ -273,7 +274,7 @@ html {
 
 @media only screen and (max-width: 650px) {
   .navbar .logo img {
-    max-height: 70px;
+    max-height: 60px;
   }
   .navbar .navbar-language {
     font-size: 18px;
@@ -861,7 +862,7 @@ html {
 
 @media screen and (max-width: 680px) {
   .newsletter-input .form-floating .form-control {
-    min-width: 200px !important;
+    min-width: 150px !important;
   }
 }
 /*nyhedsbrev ender*/
