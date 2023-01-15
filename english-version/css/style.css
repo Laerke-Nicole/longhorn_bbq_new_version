@@ -363,13 +363,16 @@ html {
 }
 @media screen and (max-width: 650px) {
   .frontpage .text .fp1 {
-    font-size: 60px;
+    font-size: 45px;
+    margin-bottom: 12px;
+    text-align: center;
   }
   .frontpage .text .fp2 {
-    font-size: 50px;
+    font-size: 40px;
+    text-align: center;
   }
   .frontpage .text .fp4 {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
@@ -866,6 +869,11 @@ html {
     min-width: 175px !important;
   }
 }
+@media screen and (max-width: 450px) {
+  .newsletter-input {
+    gap: 12px !important;
+  }
+}
 /*nyhedsbrev ender*/
 .footer-parent {
   background-image: url(/img/black-texture.jpg);
@@ -1141,6 +1149,11 @@ html {
   }
   .countdown-col .countdown .time p {
     font-size: 18px !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .fp1 {
+    font-size: 20px;
   }
 }
 /*media ender*//*# sourceMappingURL=style.css.map */

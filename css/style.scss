@@ -221,11 +221,14 @@ html {
         
         @media screen and (max-width: 650px) {
             .fp1 {
-                font-size: 60px;
+                font-size: 45px;
+                margin-bottom: 12px;
+                text-align: center;
             }
         
             .fp2 {
-                font-size: 50px;
+                font-size: 40px;
+                text-align: center;
             }
         
             .fp4 {
@@ -783,6 +786,12 @@ html {
                 min-width: 175px !important;
             }
         }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .newsletter-input {
+        gap: 12px !important;
     }
 }
 
