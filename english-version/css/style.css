@@ -301,6 +301,7 @@ html {
   font-size: 100px;
   color: #f9f9f9;
   text-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 75px;
 }
 .frontpage .text .fp2 {
   font-family: "Mocha Mattari";
